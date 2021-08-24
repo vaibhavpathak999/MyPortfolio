@@ -22,6 +22,11 @@
   position: relative;
 }
 
+/* #codefry_image{
+  width: 200px;
+  height: 500px;
+} */
+
 .blog-post__img img{
   min-width: 75vh;
   max-width: 80vh;
