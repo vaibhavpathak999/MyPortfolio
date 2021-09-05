@@ -25,42 +25,42 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
-// /*===== SCROLL REVEAL ANIMATION =====*/
-// const sr = ScrollReveal({
-//     origin: 'bottom',
-//     distance: '100px',
-//     duration: 1000,
-//     reset: false
-// });
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'bottom',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+});
 
-// /*SCROLL HOME*/
-// sr.reveal('.home__title',{});
-// sr.reveal('.button',{delay: 200});
+/*SCROLL HOME*/
+sr.reveal('.home__title',{});
+sr.reveal('.button',{delay: 200});
+sr.reveal('.home__img',{delay: 400});
+sr.reveal('.home__social-icon',{ interval: 200});
 // sr.reveal('.home__img',{delay: 400});
-// sr.reveal('.home__social-icon',{ interval: 200});
-// // sr.reveal('.home__img',{delay: 400});
 
-// /*SCROLL ABOUT*/
-// sr.reveal('.about__img',{delay: 200});
-// sr.reveal('.about__subtitle',{delay: 400});
-// sr.reveal('.about__text',{delay: 400});
+/*SCROLL ABOUT*/
+sr.reveal('.about__img',{delay: 200});
+sr.reveal('.about__subtitle',{delay: 400});
+sr.reveal('.about__text',{delay: 400});
 
-// /*SCROLL SKILLS*/
-// sr.reveal('.skills-text',{interval: 200});
-// sr.reveal('.skills__data',{interval: 200});
+/*SCROLL SKILLS*/
+sr.reveal('.skills-text',{interval: 200});
+sr.reveal('.skills__data',{interval: 200});
 
 
-// /*SCROLL EXPERIENCE AND EDUCATION*/
-// sr.reveal('.timeline-box',{interval: 200});
+/*SCROLL EXPERIENCE AND EDUCATION*/
+sr.reveal('.timeline-box',{interval: 200});
 
-// /*SCROLL WORK*/
-// sr.reveal('.blog-post__img',{interval: 200});
-// sr.reveal('.blog-post',{interval: 200});
+/*SCROLL WORK*/
+sr.reveal('.blog-post__img',{interval: 200});
+sr.reveal('.blog-post',{interval: 200});
 
-// /*SCROLL CONTACT*/
-// sr.reveal('.contact__input',{interval: 200});
+/*SCROLL CONTACT*/
+sr.reveal('.contact__input',{interval: 200});
 
-// /*SCROLL FOOTER*/
-// sr.reveal('.footer__title',{ delay: 200});
-// sr.reveal('.footer__phone',{ delay: 200});
-// sr.reveal('.footer__social',{ interval: 200});
+/*SCROLL FOOTER*/
+sr.reveal('.footer__title',{ delay: 200});
+sr.reveal('.footer__phone',{ delay: 200});
+sr.reveal('.footer__social',{ interval: 200});
