@@ -46,7 +46,7 @@
   font-size:2.5rem;
   margin: 1rem 0 2rem;
   background: linear-gradient(45deg, #fff400,#f3503c, #d53567, #A7489B);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 /* .blog-post__title:hover{
